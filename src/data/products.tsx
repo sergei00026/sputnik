@@ -17,7 +17,7 @@ const products: ProductCardProps[] = [
     origin: 'Россия',
     price: 34900,
     currency: 'RUB',
-    imageUrl: '/sputnik/images/Red_Apple.jpg',
+    imageUrl: 'images/Red_Apple.jpg',
   },
   {
     title: 'Апельсин',
