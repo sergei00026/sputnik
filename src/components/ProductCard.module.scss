@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 12px;
+    max-width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.image {
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.info {
+    margin-top: 12px;
+
+    h3 {
+        margin: 0 0 6px;
+        font-size: 18px;
+    }
+
+    p {
+        margin: 2px 0;
+    }
+
+    .price {
+        font-weight: bold;
+        color: #1a8917;
+    }
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    padding: 16px;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}
