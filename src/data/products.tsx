@@ -17,21 +17,21 @@ const products: ProductCardProps[] = [
     origin: 'Россия',
     price: 34900,
     currency: 'RUB',
-    imageUrl: '/images/Red_Apple.jpg',
+    imageUrl: 'images/Red_Apple.jpg',
   },
   {
     title: 'Апельсин',
     origin: 'Испания',
     price: 25900,
     currency: 'EUR',
-    imageUrl: '/images/Orange-Fruit-Pieces.jpg',
+    imageUrl: 'images/Orange-Fruit-Pieces.jpg',
   },
   {
     title: 'Банан',
     origin: 'Эквадор',
     price: 19900,
     currency: 'USD',
-    imageUrl: '/images/Banana.jpg',
+    imageUrl: 'images/Banana.jpg',
   },
 ]
 
