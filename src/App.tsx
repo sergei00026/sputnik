@@ -4,7 +4,7 @@ import ProductsPage from "./data/products.tsx";
 function App() {
 
   return (
-    <div>
+    <div className={'wrapper'}>
       <ProductsPage/>
     </div>
   )
