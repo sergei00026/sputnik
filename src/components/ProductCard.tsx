@@ -7,6 +7,7 @@ interface ProductCardProps {
   currency: 'RUB' | 'USD' | 'EUR'
   imageUrl: string
 }
+const basePath = import.meta.env.BASE_URL
 
 export const ProductCard: React.FC<ProductCardProps> = ({ title, origin, price, currency, imageUrl }) => {
   const formattedPrice = new Intl.NumberFormat('ru-RU', {
@@ -18,7 +19,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ title, origin, price, 
   return (
     <div className={styles.card}>
       <img
-        src={imageUrl}
+        src={`${basePath}${imageUrl}`}
         alt={title}
         width={300}
         height={200}
